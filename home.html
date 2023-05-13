@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230511092147">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Barba.js -->
+	<script src="https://cdn.jsdelivr.net/npm/@barba/core?_v=20230511092147"></script>
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js?_v=20230511092147"></script>
+</head>
+
+<body onload="move()">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="percent">1%</div>
+		<div id="bar">
+			<div id="barconfrm"></div>
+		</div>
+	</div>
+
+	<div data-barba="wrapper" class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/icons/logo.svg" alt="">
+				</div>
+
+				<div class="header__nav">
+					<div class="header__menu menu">
+						<div class="header__menu">
+							<button class="menu__btn">
+								<div type="button" class="menu__icon icon-menu">
+									<span></span>
+								</div>
+								<p class="menu__text">Menu</p>
+							</button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="../home.html" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="../about.html" class="menu__link">About</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Services</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+								</ul>
+
+								<div class="social__media">
+									<a href="" class="social__link">Instagram</a>
+									<a href="" class="social__link">Facebook</a>
+									<a href="" class="social__link">Twitter</a>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<main data-barba="container" data-barba-namespace="home" class="page">
+			<div class="page__wrap">
+				<div class="home__section">
+					<div class="nav">
+					</div>
+					<div class="work__collection">
+						<div class="grid__gallery" id="gallery">
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">GIRL IN NEW YORK</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">DELICIOUS FOOD IN GERMANY</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">PEPE THE RETRIEVER</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">A MAGICAL TIME IN TOKYO</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">LOVE PROMO VIDEO</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">THE ULTIMATE FIGHT</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">MICHIGAN'S NEW SONG</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">DARK KNIGHT FASHION</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/9.webp" type="image/webp"><img src="img/9.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">ENJOYING THE STARS</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/10.webp" type="image/webp"><img src="img/10.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">A NIGHT IN THE SUBWAY</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/11.webp" type="image/webp"><img src="img/11.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">THE SPACESHIP MISSION</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/12.webp" type="image/webp"><img src="img/12.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">THE SECRET INTERVIEW</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/13.webp" type="image/webp"><img src="img/13.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">HEAD CLOTHING LINE</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/14.webp" type="image/webp"><img src="img/14.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">DAYLIGHT THE MOVIE</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/15.webp" type="image/webp"><img src="img/15.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">HYUNDAI PROMOTIONAL EVENT</h2>
+								</div>
+							</div>
+							<div class="collection__item">
+								<a href="" class="collection__image">
+									<picture><source srcset="img/16.webp" type="image/webp"><img src="img/16.png" alt=""></picture>
+								</a>
+								<div class="colection__mask">
+									<h2 class="collection__text">CHOSEN ONES CAMPAIGN</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script>
+			// Preloader //
+			const tll = gsap.timeline({
+				paused: "true"
+			});
+			tll.to("#percent, #bar", {
+				duration: .2,
+				opacity: 0,
+				zIndex: -1
+			});
+			tll.to("#preloader", {
+				duration: .8,
+				width: "0%"
+			});
+			tll.from(".container", {
+				duration: 1.5,
+				y: "-150%"
+			}, "-=.2");
+			tll.to(".container h1", {
+				opacity: 1,
+				textShadow: "12px 20px rgba(255,255,255,0.23)",
+				skewY: 10,
+				y: "10%",
+				stagger: {
+					amount: .4
+				}
+			});
+			var width = 1;
+			var bar = document.getElementById("barconfrm");
+			var id;
+
+			function move() {
+				id = setInterval(frame, 10);
+
+			}
+
+			function frame() {
+				if (width >= 100) {
+					clearInterval(id);
+					tll.play();
+				} else {
+					width++;
+					bar.style.width = width + "%";
+					document.getElementById("percent").innerHTML = width + "%";
+				}
+			}
+		</script>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20230511092147"></script>
+</body>
+
+</html>
